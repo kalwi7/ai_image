@@ -1,0 +1,25 @@
+{
+  "default_model": "realistic_Vision_V6.0_NV_B1.safetensors",
+  "default_refiner": "",
+  "default_refiner_switch": 0.5,
+  "default_loras": [
+    ["realistic_Vision_V6.0_NV_B1.safetensors", 0.25],
+    ["None", 1.0],
+    ["None", 1.0],
+    ["None", 1.0],
+    ["None", 1.0]
+  ],
+  "default_cfg_scale": 3.0,
+  "default_sample_sharpness": 2.0,
+  "default_sampler": "dpmpp_2m_sde_gpu",
+  "default_scheduler": "karras",
+  "default_performance": "Speed",
+  "default_prompt": "",
+  "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+  "default_styles": ["Fooocus V2", "Fooocus Photograph", "Fooocus Negative"],
+  "default_aspect_ratio": "896*1152",
+  "checkpoint_downloads": {
+    "realisticStockPhoto_v10.safetensors": "https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/blob/main/Realistic_Vision_V6.0_NV_B1.safetensors"
+  },
+  "embeddings_downloads": {}
+}
